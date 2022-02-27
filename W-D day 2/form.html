@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form</title>
+        <style>
+            marquee{
+                color:blue;
+                font-size: 50px;  
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+            }
+            input{
+                color: red;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+               
+            }
+            label{
+                color:blue;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+            }  
+            img{
+                width : 250px;
+                margin-left: 40%;
+                border:forestgreen;
+                border-style: solid; 
+                border-radius: 50%;
+                border-width: 15px; 
+                margin-top: -20%;
+                padding: 0%;
+            }
+            body{ 
+                background-image: linear-gradient(gray,white);
+                color: rgb(218, 5, 5);
+                font-style: italic;
+            }    
+            .gen{
+                color: red !important;
+            }
+            #newgen{
+                color: aqua; 
+                font-size: 40px;
+            }
+            #pad{
+                width:  25%;
+                background-color: blue;
+                padding: 50px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">amit chaudhary</marquee>
+        <br>
+        <form action="mailto:amit.choudhary3312@gmail.com" method="post">
+         Name  : <br> 
+        <input  type="text" name="Name" placeholder="Enter your name" required  >
+        <br>
+        <br>
+ 
+        Gender : 
+        <br>
+        <input type="radio" name="Gender" value="male" id="gender-m">
+        <label for="gender-m" class="gen" id="newgen">Male</label>
+        <input type="radio" name="Gender" value ="female" id="gender-f">
+        <label for="gender-f" class="gen">Female</label>
+        <input type="radio" name="Gender" value ="Other" id="Other">
+        <label for="Other">Others</label>
+ 
+        <br><br>
+        Skills :
+        <br>
+        <input type="checkbox" name="skill" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skill" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <br><br>
+
+        <input type="submit" >
+        <input type="reset" value="reset"> <br>
+        <br>
+
+        List of students:
+        <br>
+        <select name="list of students" id="">
+            <option>Select a name of student</option>
+            <option>amit</option>
+            <option >rajat</option>
+            <option>rishi</option>
+            <option>monu</option>
+        </select>
+        <br><br>
+        <img src="https://th.bing.com/th/id/OIP.rhujbBub0Gj1J8Ko_AXBmwHaEK?w=298&h=180&c=7&r=0&o=5&pid=1.7">
+        <div id="pad">
+            <p style="color: white;">an apple a day keeps the doctor a way </p>
+        </div>
+
+        </form>
+    </body>
+</html> 
+ 
