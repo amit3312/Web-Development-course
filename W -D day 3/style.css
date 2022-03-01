@@ -1,0 +1,17 @@
+body{
+    background-color: blanchedalmond;
+}
+pre{
+    color: blueviolet;
+}
+.lorem{
+    width: 50em;
+    cursor: pointer;
+}
+.lorem >pre:hover{
+    color: red;
+
+}
+.lorem:hover{
+    background-color:greenyellow ;
+}

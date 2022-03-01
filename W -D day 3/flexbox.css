@@ -1,0 +1,17 @@
+.parent > div{
+    background-color: blue;
+    width: 60px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-items: center;
+}
